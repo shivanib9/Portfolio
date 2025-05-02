@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Shivani</a>
+     <nav class="navbar">
+        <div id="sidemenu">
+        <a href="#" style="--i:1" class="active">Home</a>
+        <a href="#about" style="--i:2">About</a>
+        <a href="#skills" style="--i:3">Skills</a>
+        <a href="#projects" style="--i:4">Projects</a>
+        <a href="#contact" style="--i:5">Contact</a>
+        <i class="fas fa-times" onclick="closemenu()"></i>
+    </div>
+    <i class="fas fa-bars" onclick="openmenu()"></i>
+     </nav>
+    </header>
+    <section class="home" >
+        <div class="home-content">
+            <h3>Hello,its me</h3>
+            <h1>Shivani</h1>
+                <h3>And I'm a <span class="text"></span></h3>
+                <p>I'm a passionate Web and Software Developer who loves <br>turning ideas into interactive, user-friendly digital experiences.</p>
+            <a href="#" class="btn-box">More about me</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/shivaniphoto2.jpeg">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2> 
+            <h4>Java Developer</h4>
+            <p>I’m a recent graduate with a strong interest in software development. I specialize in front-end technologies like HTML, CSS, and JavaScript, and I also have a solid foundation in Java and SQL. I’ve built projects like an Amazon homepage clone, which helped me sharpen my skills in responsive design and interactive UI development.
+                I'm enthusiastic about building clean, user-friendly web applications and constantly learning new tools and frameworks. I'm now looking to join a startup where I can contribute to real-world projects and grow as a developer.</p>
+        <a href="#" class="btn-box">More About Me</a>    
+        </div>
+            </section>
+            <section id="skills">
+                <div class="container" >
+                    <div class="main-title">
+                        <h1>My <span>Skills</span></h1>
+                    </div>
+                    <div class="row">
+                        <section class="col">
+                            <div class="sub-title">
+                                <h2>Programming Skills</h2>
+                            </div>
+                            <div class="skills-container">
+                                <div class="skill">
+                                    <div class="subject">Java</div>
+                                    <div class="progress-bar" value="80%">
+                                        <div class="progress-line" style="max-width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="subject">HTML</div>
+                                    <div class="progress-bar" value="94%">
+                                        <div class="progress-line" style="max-width: 94%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="subject">CSS</div>
+                                    <div class="progress-bar" value="80%">
+                                        <div class="progress-line" style="max-width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="subject">JavaScript</div>
+                                    <div class="progress-bar" value="70%">
+                                        <div class="progress-line" style="max-width: 70%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="subject">SQL</div>
+                                    <div class="progress-bar" value="80%">
+                                        <div class="progress-line" style="max-width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="subject">Git</div>
+                                    <div class="progress-bar" value="50%">
+                                        <div class="progress-line" style="max-width: 50%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="col">
+                            <div class="sub-title">
+                                <h2>Professional Skills</h2>
+                            </div>
+                            <div class="skills-container">
+                                <div class="skill">
+                                    <div class="subject">Creativity</div>
+                                    <div class="progress-bar" value="80%">
+                                        <div class="progress-line" style="max-width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="subject">Communication</div>
+                                    <div class="progress-bar" value="94%">
+                                        <div class="progress-line" style="max-width: 94%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="subject">TeamWork</div>
+                                    <div class="progress-bar" value="80%">
+                                        <div class="progress-line" style="max-width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="subject">Problem Solving</div>
+                                    <div class="progress-bar" value="70%">
+                                        <div class="progress-line" style="max-width: 70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+            <section>
+                 <div id="projects">
+                        <div class="container">
+                            <h1 class="sub-title">My<span> Projects</span></h1>
+                        <div class="work-list">
+                            <div class="work">
+                                <img src="images/Amazonclone-1.jpeg" >
+                                <div class="layer">
+                                    <h3>Amazon Homepage Clone</h3>
+                                    <p>A responsive clone of the Amazon homepage using HTML, CSS, and JavaScript. Designed to practice layout design and DOM manipulation.</p>
+                                    <a href=" https://shivanib9.github.io/Amazon-clone/"  target="none"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="images/wwork3.webp" >
+                                <div class="layer">
+                                    <h3>To-Do List App</h3>
+                                    <p>A simple and interactive to-do list app built with HTML, CSS, and JavaScript. Supports adding and removing tasks dynamically</p>
+                                    <a
+                                    href="https://shivanib9.github.io/To-Do-list/"
+                                    target="none"
+                                    ><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="images/work33.png" >
+                                <div class="layer">
+                                    <h3>Portfolio Website</h3>
+                                    <p> A personal portfolio site showcasing my skills, projects, and contact details. Built with HTML, CSS, and JavaScript for responsiveness and interaction.</p>
+                                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div> 
+                        <a href="https://github.com/shivanib9"class="btn">See More</a>
+                        </div>
+                    </div>
+                </section>
+            
+            <section>
+               
+                    <div class="container1">
+                        <div id="contact">
+                        <h1 class="sub-title">Contact<span> Me</span></h1>
+                        <div class="row">
+                            <div class="contact-left">
+                                <p class="gmail"> <i class="fa-solid fa-paper-plane"></i> bshivani.ece@gmail.com</p>
+                                <p><i class="fa-solid fa-phone"></i> 7892521712</p>
+                                <div class="social-icons">
+                                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                                <a href="Bshivani_Resume_Software.pdf" download class="btn btn2">Download CV</a>
+                            </div>
+                            <div class="contact-right">
+                                <form>
+                                    <input type="text" name="Name" placeholder="Enter your name" required>
+                                    <input type="email" name="email" placeholder="Enter your Email" required>
+                                    <textarea name="Message" rows="6"placeholder="Your message"></textarea>
+                                    <button type="submit" class="btn btn2">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                <div class="copyright">
+                    <p>copyright 2025 Shivani B | Portfolio Website</p>
+                </div>
+<script>
+    function openmenu() {
+    document.getElementById('sidemenu').style.right = "0";
+}
+
+function closemenu() {
+    document.getElementById('sidemenu').style.right = "-200px";
+}
+</script>
+    <script src="script1.js"></script>
+</body>
+</html>
